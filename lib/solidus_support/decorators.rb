@@ -31,7 +31,7 @@
 # Migrating from classic Solidus decorators
 #
 #   require 'solidus_support/decorators'
-#   SolidusDecorators.autoload_decorators("#{Rails.root}/app/**/*_decorator.rb") do |path|
+#   SolidusSupport::Decorators.autoload_decorators("#{Rails.root}/app/**/*_decorator.rb") do |path|
 #     relative_path = path.relative_path_from(Rails.root.join("app/")) # models/acme_corp/order_decorator.rb
 #     parts = relative_path.to_s.split(File::SEPARATOR)
 #
